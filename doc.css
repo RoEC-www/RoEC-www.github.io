@@ -1,23 +1,5 @@
 /* CSS */
-.container {width:100%;max-width:1260px;min-width:780px;margin:0 auto;}
-header {background-color:#3df297;width:100%;height:140px;font-size:28px;text-align:center;}
-#flag {height:124px;float:right; float:center; vertical-align:center-right;}
-nav {background-color:green;width:20%;height:3300px;float:left;font-size:30px;line-height:250%;text-align:center;}
-section {background-color:#e6f7e6;width:100%;height:3300px;float:left;font-size:20px;text-align:center;}
-section.cor {text-align:center;}
-article.Art{ font-size:20px; color:grey; text-align:center;}
-ol {list-style-type: lower-alpha; text-align:center;color:#FFCC00;background-color:teal;font-size:30px}
-ul {list-style-image:url("../images/Tick.jpg"); text-align:center;color:yellow;background-color:teal}
-#Contact{ margin:0 auto; margin-top:10px; font-size:22px; color:black; border-radius:15px;
-background-color:teal;text-align:center;width:80%;border-style:ridge;border-width:8px;}
-#social1 {transform: rotate(7deg);}
-#social2 {transform: rotate(-7deg);}
-#social3 {transform: rotate(7deg);}
-#social4 {transform: rotate(-7deg);}
-table td{border-style:outset;	border-width:1px;}
-table th{text-align:center;background-color:#222;font-size:25px; border-radius: 0px 25px 5px 10px;
-border-style:outset;border-width:2px;}
-table {margin:0 auto; background-color:#666;}
-#Comment {font-size:14px; color:yellow; text-align:right;}
-p:first-letter {font-size:150%;color:#FDF5E6;}
-h2 {color:#e6f2ff;}
+.container {width:100%;min-width:780px;margin:0 auto; vertical-align:center;}
+header {background-color:#3df297;width:100%;height:180px;font-size:32px;text-align:center; vertical-align:center;}
+#flag {float:left; vertical-align:center;}
+section {background-color:#e6f7e6;height:3300px;text-align:center; width:100%;min-width:780px;margin:0 auto;}

@@ -1,6 +1,6 @@
 /* CSS */
-.container {width:80%;max-width:1260px;min-width:780px;margin:0 auto;}
-header {background-color:#3df297;width:100%;height:120px;font-size:32px;text-align:center;}
+.container {width:100%;max-width:1260px;min-width:780px;margin:0 auto;}
+header {background-color:#3df297;width:100%;height:140px;font-size:28px;text-align:center;}
 #flag {height:124px;float:right; float:center; vertical-align:center-right;}
 nav {background-color:green;width:20%;height:3300px;float:left;font-size:30px;line-height:250%;text-align:center;}
 section {background-color:#e6f7e6;width:100%;height:3300px;float:left;font-size:20px;text-align:center;}

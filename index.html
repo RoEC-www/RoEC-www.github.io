@@ -19,12 +19,13 @@ Above notice MUST stay entact for use
 function fakecounter(){
 
 // ***** decrease/increase counter value (depending on perceived popularity of your site!) *****
-var decrease_increase=-8365000
+var decrease_increase=-8265000
 
 var counterdate=new Date()
 var currenthits=counterdate.getTime().toString()
 currenthits=parseInt(currenthits.substring(2,currenthits.length-4))+decrease_increase
 
+document.write("<span class='green'>Visitor number: " + currenthits</span>");
 document.write("Visitor # <b>"+currenthits+"</b>, Welcome!")
 document.write('<h3 style="text-align: center;">test</h3>');
 document.write('<h3 style="text-align: center;">"Visitor # <b>"+currenthits+"</b>, Welcome!"</h3>');

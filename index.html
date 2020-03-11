@@ -6,8 +6,13 @@
 <title>RoEC</title>
 </head>
 <body>
-	
-		<div class="container">
+<style>
+    .blue {background: blue;};
+    .green {background: green;};
+    .yellow {background: yellow;};
+ </style>
+
+<div class="container">
 <script>
 /*
 Counter script
@@ -26,7 +31,7 @@ var currenthits=counterdate.getTime().toString()
 currenthits=parseInt(currenthits.substring(2,currenthits.length-4))+decrease_increase
 
 document.write("<span class='green'>Visitor number: " + currenthits</span>");
-document.write("Visitor # <b>"+currenthits+"</b>, Welcome!")
+document.write("Visitor # <b>"+currenthits+"</b>, Welcome!");
 document.write('<h3 style="text-align: center;">test</h3>');
 document.write('<h3 style="text-align: center;">"Visitor # <b>"+currenthits+"</b>, Welcome!"</h3>');
 document.write('<h3 style="text-align: center;">currenthits</h3>');
